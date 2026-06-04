@@ -1,0 +1,38 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Environment variables (never commit secrets)
+.env
+.env.*
+
+# Python cache and build
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+build/
+dist/
+
+# Logs and temp files
+*.log
+logs/
+tmp/
+*.tmp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# Test/coverage outputs
+.coverage
+htmlcov/
+.cache/
